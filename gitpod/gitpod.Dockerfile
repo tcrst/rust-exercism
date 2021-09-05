@@ -10,8 +10,8 @@ USER root
 
 RUN curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-
 RUN wget https://github.com/exercism/cli/releases/download/v3.0.13/exercism-3.0.13-linux-x86_64.tar.gz && \ 
     tar -xvf exercism-3.0.13-linux-x86_64.tar.gz && \
     mv exercism /usr/bin/exercism && \
-    chmod +x /usr/bin/exercism
+    chmod +x /usr/bin/exercism && \
+    exercism --help
