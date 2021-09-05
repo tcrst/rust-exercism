@@ -2,7 +2,7 @@ image:
   file: gitpod/gitpod.Dockerfile
 
 #tasks:
-#  - command: 
+#  - command: exercism configure --token= --workspace=/workspace/rust-exercism
 
 # vscode:
 #   extensions:
