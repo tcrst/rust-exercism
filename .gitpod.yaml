@@ -4,7 +4,7 @@ image:
 #tasks:
 #  - command: 
 
-vscode:
-  extensions:
-  - hashicorp.terraform
-  - ms-python.python
+# vscode:
+#   extensions:
+#   - hashicorp.terraform
+#   - ms-python.python
