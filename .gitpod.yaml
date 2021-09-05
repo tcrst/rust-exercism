@@ -1,0 +1,10 @@
+image:
+  file: gitpod/gitpod.Dockerfile
+
+#tasks:
+#  - command: 
+
+vscode:
+  extensions:
+  - hashicorp.terraform
+  - ms-python.python
